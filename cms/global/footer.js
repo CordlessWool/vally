@@ -1,12 +1,12 @@
 ({
 	footer: [
 		{
-			name: 'Anderer Link',
-			link: '#'
+			name: 'Powered by Enduro.js',
+			link: 'https://www.endurojs.com/'
 		},
 		{
-			name: 'Datenschutz',
-			link: '#'
+			name: 'Vally by Wolfgang Rathgeb',
+			link: 'https://dropanote.de/'
 		},
 		{
 			name: 'Impressum',
