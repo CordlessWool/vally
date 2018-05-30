@@ -1,0 +1,18 @@
+{{#>body}}
+
+    {{#with teaser}}
+        <section class="teaser screen half" style=" {{#if cover_img}} background-image: url({{cover_img}}); {{/if}} box-shadow: inset 0 0 0 100vw rgba(73, 73, 73, {{style.darken}})">
+            <div class="center_block">
+                <h1 class="huge">{{header}}</h1>
+                <h2>{{tagline}}</h2>
+            </div>
+
+            <div class="bottom_block vertical_pulsate">
+                <p>{{call_to_action}}</p>
+            </div>
+        </section>
+    {{/with}}
+
+    {{> elements}}
+
+{{/body}}

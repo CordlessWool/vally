@@ -1,0 +1,96 @@
+@import 'variables/colors';
+
+.footer {
+
+  font-size: 1.7rem;
+  padding: 7px 0;
+
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    color: $grey;
+
+    padding: 0 7px;
+
+
+    ul.right {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      flex-wrap: wrap;
+      min-width: 0;
+
+      li {
+        position: relative;
+        padding: 0 9px;
+        overflow: visible;
+      }
+
+      li:after {
+        position: absolute;
+        content: "|";
+        right: -1px;
+        top: 0;
+      }
+
+      li:last-of-type:after {
+        content: none;
+      }
+
+
+    }
+  }
+
+  a {
+    color: $grey;
+    text-decoration: none;
+    white-space: nowrap;
+  }
+
+  a:hover, a:focus {
+    color: $black;
+  }
+
+
+/*flex-shrink: 0;
+
+  .container{
+    max-width: 770px;
+  }
+
+  .flex {
+    padding-left: 27px;
+    padding-right: 27px;
+    justify-content: space-between;
+  }
+
+  .float_block {
+    flex: (0 0 auto);
+
+  }
+
+  .headline {
+    text-align: left;
+    //font-size: large;
+    font-weight: bold;
+  }
+
+  ul {
+    margin: 2px 0;
+    padding: 0 0 0 17px;
+
+    a {
+      text-decoration: none;
+      color: $light;
+      //font-weight: bold;
+
+      &:hover, &:focus{
+        //font-weight: bold;
+        color: $white;
+      }
+
+    }
+  }*/
+}

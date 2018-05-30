@@ -59,3 +59,23 @@ typings/
 
 # next.js build output
 .next
+
+
+
+
+
+
+/_src/*
+/assets/vendor
+/assets/css/sprites
+**/_*
+enduro_secret.json
+/juicebox
+/t
+/remote
+
+.idea
+
+
+# exclude css files
+

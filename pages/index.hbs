@@ -1,0 +1,66 @@
+{{#> body}}
+		{{#with teaser}}
+			<section class="teaser screen" style=" {{#if cover_img}} background-image: url({{cover_img}}); {{/if}} box-shadow: inset 0 0 0 100vw rgba(73, 73, 73, {{style.darken}})">
+				<div class="center_block">
+					<h1 class="huge">{{header}}</h1>
+					<h2>{{tagline}}</h2>
+				</div>
+
+				<div class="bottom_block vertical_pulsate">
+					<p>{{call_to_action}}</p>
+				</div>
+			</section>
+		{{/with}}
+
+
+        {{> elements}}
+
+        <section id="map-container">
+            <!-- should be only load if map is shown -->
+            <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.js'></script>
+            <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.2/mapbox-gl.css' rel='stylesheet' />
+            {{#with contact_map}}
+                <div id='map' data-lat="{{lat}}" data-lng="{{lng}}" data-zoom="zoom"></div>
+
+            <div {{#if jump_id}}id="jump-{{jump_id}}"{{/if}} class="container">
+            {{/with}}
+                <div class="contact">
+                    <div>
+                    <h3>{{global.company.name}}</h3>
+                    <ul>
+                    <li>
+                        <img class="icon svg" src="assets/img/location.svg" />
+                        <div class="inline">
+                            <span>{{global.company.street}}</span> <br>
+                            <span>{{global.company.city}}</span>
+                        </div>
+                    </li>
+                    <hr />
+                    <li class="">
+                        <img class="icon svg" src="assets/img/phone.svg" />
+                        {{global.company.phone}}
+                    </li>
+                    <li class="">
+                        <img class="icon svg" src="assets/img/mail.svg" />
+                        <a href="mailto:{{global.company.mail}}">{{global.company.mail}}</a>
+                    </li>
+                    <li>
+                        <ul class="social-icon-container">
+                            {{#each global.company.social}}
+                                <li>
+                                    <a href="{{link}}">
+                                        <div class="social_icon">
+                                            <i class="fa fa-{{icon}}"></i>
+                                        </div>
+                                    </a>
+                                </li>
+                            {{/each}}
+                        </ul>
+                    </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+{{/ body}}

@@ -1,0 +1,23 @@
+
+<nav class="navbar fixed-top {{#if teaser.cover_img}} navbar-dark {{else}} navbar-light white no-teaser {{/if}} navbar-expand-md">
+{{#with global.header}}
+    <div class="container">
+    <a class="navbar-brand" href="/">
+        <img src="{{brand}}" height="50" class="d-inline-block align-top" alt="">
+
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul id="navbar-items-list" class="navbar-nav ml-auto">
+            {{#each items}}
+                <li class="nav-item active">
+                    <a class="nav-link" href="{{link}}">{{name}}</a>
+                </li>
+            {{/each}}
+        </ul>
+    </div>
+    </div>
+</nav>
+{{/with}}

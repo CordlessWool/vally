@@ -1,0 +1,23 @@
+
+$teaser-styles: (0.35, #FFF) !default;
+
+@function teaser-scheme($color) {
+  @return nth($teaser-styles, $color)
+}
+
+$teaser-font-color: teaser-scheme(2);
+$teaser-shadow-opacity: teaser-scheme(1);
+
+
+// applied scheme
+$dark: #333333;
+$black: #000;
+//$color1: scheme(2);
+//$color2: scheme(3);
+
+$background: #333333;
+
+// basics
+$white: #fff;
+$light: #999;
+$grey: #423d3d;

@@ -1,0 +1,20 @@
+<div class="footer">
+    <div class="container">
+        <div class="left"><a href="/">{{global.company.name}}</a> &#169; {{year}} </div>
+        <ul class="right">
+            {{#each global.footer}}
+                <li><a href="{{link}}">{{name}}</a></li>
+            {{/each}}
+        </ul>
+        {{#each global.footer}}
+           <!-- <div class="float_block">
+            <div class="headline">{{headline}}</div>
+            <ul>
+                {{#each links}}
+                    <li><a href="{{link}}">{{name}}</a></li>
+                {{/each}}
+            </ul>
+            </div> -->
+        {{/each}}
+    </div>
+</div>
