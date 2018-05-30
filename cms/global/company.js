@@ -1,15 +1,15 @@
 ({
 	company: {
-		name: 'Valyriot GmbH',
-		street: 'Siemensstr. 14',
-		city: '10551 Potsdam',
+		name: 'Vally',
+		street: 'street of heaven 14',
+		city: '54342 Berlin',
 		phone: '+49 30 213874128',
-		mail: 'contact@valyriot.com',
+		mail: 'contact@company-xy.com',
 		social: [
 			{
 				$icon_type: 'fa',
 				icon: 'xing',
-				link: 'https://www.xing.com/profile/Wolfgang_Rathgeb2/cv'
+				link: 'https://www.xing.com/'
 			},
 			{
 				$icon_type: 'fa',

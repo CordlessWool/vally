@@ -1,7 +1,7 @@
 ({
 	header: {
 		$brand_type: 'image',
-		brand: '/remote/direct_uploads/1526422377_logo_text.png',
+		brand: '',
 		items: [
 			{
 				name: 'Kontakt',

@@ -1,7 +1,7 @@
 ({
 	teaser: {
 		$cover_img_type: 'image',
-		cover_img: '/remote/direct_uploads/1526503814_teaser_arburg.jpg',
+		cover_img: '',
 		$style_expander: true,
 		$style_info: 'won\'t work with the temp action',
 		style: {
@@ -10,9 +10,9 @@
 			$font_color_type: 'colorpicker',
 			font_color: '#ffffff'
 		},
-		header: 'Erfahren Sie alles über Ihre Anlagen',
-		tagline: 'und reagieren Sie, bevor Probleme auftreten.',
-		call_to_action: 'Unten finden Sie weitere Informationen'
+		header: 'Lorem ipsum dolor sit, amet.',
+		tagline: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
+		call_to_action: 'Scroll down to get more informations'
 	},
 	$elements_templatitator: '@@global.element_types',
 	$elements_size: 12,
@@ -29,7 +29,7 @@
 			full_width: false,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526572708_logo_text.png',
+			image: '',
 			underline: '',
 			$style_expander: true,
 			style: {
@@ -43,11 +43,11 @@
 			description_full: true,
 			small: true,
 			dark: false,
-			headline: 'Überwachung bestehender Anlagen',
+			headline: 'Lorem ipsum dolor sit, amet.',
 			$description_type: 'textarea',
-			description: 'valyriot bietet -speziell für Unternehmen aus der Kunststoffindustrie- eine Industrie 4.0 Nachrüstlösung für Spritzgussmaschinen und den gesamten Prozess bei der Kunststoffverarbeitung. \nDas Konzept basiert darauf, dass an bestehende Anlagen Sensoren angebracht werden oder auf bestehende Steuerungen zugegriffen wird. Die Anlagen werden nicht verändert, es gibt keine Risiken oder Gewährleistungsprobleme.',
+			description: 'Lorem ipsum dolor sit amet consectetur adipiscing, elit nunc eleifend cum vestibulum suspendisse molestie, semper litora rutrum proin diam. Hendrerit orci risus nam sociis hac inceptos duis, suscipit tristique phasellus platea montes fermentum. Senectus duis gravida facilisi class nascetur malesuada proin conubia himenaeos ullamcorper parturient eleifend bibendum, dis placerat cum ultricies porttitor congue mi dictumst consequat taciti vulputate natoque. Magnis litora imperdiet congue donec montes est suspendisse varius aptent ante massa primis eu habitasse, class lacinia dignissim consequat lacus mattis aliquam nec tempor ultricies nascetur maecenas. Malesuada habitant massa hac class viverra felis netus, justo nec',
 			$marked_doc_hidden: true,
-			marked_description: '<p>valyriot bietet -speziell für Unternehmen aus der Kunststoffindustrie- eine Industrie 4.0 Nachrüstlösung für Spritzgussmaschinen und den gesamten Prozess bei der Kunststoffverarbeitung. <br />\nDas Konzept basiert darauf, dass an bestehende Anlagen Sensoren angebracht werden oder auf bestehende Steuerungen zugegriffen wird. Die Anlagen werden nicht verändert, es gibt keine Risiken oder Gewährleistungsprobleme.</p>',
+			marked_description: '<p>Lorem ipsum dolor sit amet consectetur adipiscing, elit nunc eleifend cum vestibulum suspendisse molestie, semper litora rutrum proin diam. Hendrerit orci risus nam sociis hac inceptos duis, suscipit tristique phasellus platea montes fermentum. Senectus duis gravida facilisi class nascetur malesuada proin conubia himenaeos ullamcorper parturient eleifend bibendum, dis placerat cum ultricies porttitor congue mi dictumst consequat taciti vulputate natoque. Magnis litora imperdiet congue donec montes est suspendisse varius aptent ante massa primis eu habitasse, class lacinia dignissim consequat lacus mattis aliquam nec tempor ultricies nascetur maecenas. Malesuada habitant massa hac class viverra felis netus, justo nec</p>',
 			$marked_description_hidden: true,
 			$style_expander: true,
 			style: {
@@ -63,7 +63,7 @@
 			full_width: false,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526572959_product_schema_without_text.png',
+			image: '',
 			underline: ''
 		},
 		{
@@ -81,9 +81,9 @@
 					image: '/remote/direct_uploads/1526572738_orange_dot_1.png',
 					headline: '',
 					$description_type: 'textarea',
-					description: 'Mit unserer  Box  verbundene Sensoren und Machinenen werden Daten erfasst',
+					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat, sodales imperdiet a.',
 					$marked_doc_hidden: true,
-					marked_description: '<p>Mit unserer  Box  verbundene Sensoren und Machinenen werden Daten erfasst</p>',
+					marked_description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit volutpat, sodales imperdiet a.</p>',
 					$marked_description_hidden: true
 				},
 				{
@@ -91,9 +91,9 @@
 					image: '/remote/direct_uploads/1526572740_orange_dot_2.png',
 					headline: '',
 					$description_type: 'textarea',
-					description: 'Eine Bridge leitet Daten verschlüsselt weiter',
+					description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit quam, blandit turpis bibendum.',
 					$marked_doc_hidden: true,
-					marked_description: '<p>Eine Bridge leitet Daten verschlüsselt weiter</p>',
+					marked_description: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit quam, blandit turpis bibendum.</p>',
 					$marked_description_hidden: true
 				},
 				{
@@ -101,9 +101,9 @@
 					image: '/remote/direct_uploads/1526572743_orange_dot_3.png',
 					headline: '',
 					$description_type: 'textarea',
-					description: 'Ein Gateway überträgt die Daten sicher in die Cloud',
+					description: 'Lorem ipsum dolor sit amet consectetur, adipiscing elit ac.',
 					$marked_doc_hidden: true,
-					marked_description: '<p>Ein Gateway überträgt die Daten sicher in die Cloud</p>',
+					marked_description: '<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit ac.</p>',
 					$marked_description_hidden: true
 				},
 				{
@@ -111,9 +111,9 @@
 					image: '/remote/direct_uploads/1526572746_orange_dot_4.png',
 					headline: '',
 					$description_type: 'textarea',
-					description: 'Daten werden analysiert, visualisiert und Alarme und Workflows werden angestoßen',
+					description: 'Lorem ipsum dolor sit amet consectetur, adipiscing elit leo quam.',
 					$marked_doc_hidden: true,
-					marked_description: '<p>Daten werden analysiert, visualisiert und Alarme und Workflows werden angestoßen</p>',
+					marked_description: '<p>Lorem ipsum dolor sit amet consectetur, adipiscing elit leo quam.</p>',
 					$marked_description_hidden: true
 				}
 			]
@@ -131,12 +131,12 @@
 			invert: true,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526590556_vrasp.JPG',
-			headline: 'Alte Anlagen schlau machen',
+			image: '',
+			headline: 'Lorem ipsum dolor sit amet, consectetur adipiscing.',
 			$description_type: 'textarea',
-			description: 'valyriot ist einfach mit Ihren Anlagen zu verbinden, egal von welchem Hersteller, egal welches Baujahr.\nVorteile für Sie sind bessere Einblicke in die Zustände Ihrer bestehenden Anlagen bis hin zur vorbeugenden Instandhaltung, Energiemanagement, Qualitätssicherung etc., Sammlung von Erfahrungen im Bereich der Digitalisierung für Ihr Unternehmen und der wirtschaftliche Einstieg in eine Industrie 4.0 Welt ohne große Investitionen und ohne den Anlagenbestand verändern zu müssen.',
+			description: 'valyriot ist einfach mit Ihren Anlagen zu verbinden, egal von welchem Hersteller, egal welches Baujahr.\nLorem ipsum dolor sit amet consectetur adipiscing elit per penatibus, molestie convallis tortor eleifend natoque quisque himenaeos cubilia commodo interdum, maecenas dictum parturient aenean bibendum tellus enim eget. Congue nisi hendrerit dui mus litora vulputate, nunc tempus phasellus fermentum orci massa, fusce euismod scelerisque platea primis. Metus ut aenean venenatis accumsan sed rutrum arcu fermentum bibendum maecenas, faucibus quisque egestas volutpat blandit dui non porta magnis habitant, molestie senectus nibh parturient convallis cum integer tortor nam. Vehicula justo nunc molestie suspendisse morbi tellus dui aliquet scelerisque pellentesque, curae sapien lectus ridiculus magna tincidunt consequat sociis rutrum. Ad vehicula habitasse porta senectus semper etiam torquent, felis turpis suscipit ridiculus nisl aenean et netus, praesent fringilla rhoncus mattis',
 			$marked_doc_hidden: true,
-			marked_description: '<p>valyriot ist einfach mit Ihren Anlagen zu verbinden, egal von welchem Hersteller, egal welches Baujahr.<br />\nVorteile für Sie sind bessere Einblicke in die Zustände Ihrer bestehenden Anlagen bis hin zur vorbeugenden Instandhaltung, Energiemanagement, Qualitätssicherung etc., Sammlung von Erfahrungen im Bereich der Digitalisierung für Ihr Unternehmen und der wirtschaftliche Einstieg in eine Industrie 4.0 Welt ohne große Investitionen und ohne den Anlagenbestand verändern zu müssen.</p>',
+			marked_description: '<p>valyriot ist einfach mit Ihren Anlagen zu verbinden, egal von welchem Hersteller, egal welches Baujahr.<br />\nLorem ipsum dolor sit amet consectetur adipiscing elit per penatibus, molestie convallis tortor eleifend natoque quisque himenaeos cubilia commodo interdum, maecenas dictum parturient aenean bibendum tellus enim eget. Congue nisi hendrerit dui mus litora vulputate, nunc tempus phasellus fermentum orci massa, fusce euismod scelerisque platea primis. Metus ut aenean venenatis accumsan sed rutrum arcu fermentum bibendum maecenas, faucibus quisque egestas volutpat blandit dui non porta magnis habitant, molestie senectus nibh parturient convallis cum integer tortor nam. Vehicula justo nunc molestie suspendisse morbi tellus dui aliquet scelerisque pellentesque, curae sapien lectus ridiculus magna tincidunt consequat sociis rutrum. Ad vehicula habitasse porta senectus semper etiam torquent, felis turpis suscipit ridiculus nisl aenean et netus, praesent fringilla rhoncus mattis</p>',
 			$marked_description_hidden: true
 		},
 		{
@@ -147,12 +147,12 @@
 			invert: false,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526589356_vcharts2.JPG',
-			headline: 'Sehen was passiert',
+			image: '',
+			headline: 'diam condimentum placerat',
 			$description_type: 'textarea',
-			description: 'Unsere Box überträgt permanent Messdaten zu Temperaturen, Drücken, Feuchtigkeit und anderen Paramtern auf eine sichere Plattform. Auf Wunsch kann diese Plattform auch in Ihren Räumen oder Ihrem Rechenzentrum stehen. Dort werden Daten ausgewertet, verdichtet und visualisiert. Alarme können Verschleiß und Aufsfälle signalisieren. In Zukunft wird dank "Maschone Learning" auch die vorbeugende Instandhaltung möglich werden. Sie können damit drohende Ausfälle erkennen und rechtzeitig eingreifen.',
+			description: 'Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis platea parturient, duis primis rutrum sapien erat lobortis leo curabitur tempus imperdiet, hac in vulputate nec elementum cubilia morbi ligula bibendum. Luctus habitant diam condimentum placerat mattis odio faucibus massa parturient litora gravida magna feugiat arcu, laoreet pretium taciti iaculis facilisis porta venenatis mauris habitasse at platea magnis. Imperdiet ullamcorper litora condimentum parturient orci cum natoque aliquet, dis placerat malesuada maecenas eu mattis fringilla vehicula ante, lobortis porttitor integer habitasse cursus scelerisque libero. Euismod proin vel ut quam ultrices viverra velit phasellus enim platea nisi, magnis in nulla dui aliquam nec vehicula arcu metus. Tempor quis morbi massa a feugiat placerat euismod congue dui quisque fermentum, vitae quam aliquet fringilla metus hendrerit in class mi scelerisque. Malesuada augue porttitor aenean proin blandit inceptos lectus, pulvinar sem ridiculus senectus ante aliquam, commodo faucibus eros natoque nisi in. Ut posuere class metus nisi mus,',
 			$marked_doc_hidden: true,
-			marked_description: '<p>Unsere Box überträgt permanent Messdaten zu Temperaturen, Drücken, Feuchtigkeit und anderen Paramtern auf eine sichere Plattform. Auf Wunsch kann diese Plattform auch in Ihren Räumen oder Ihrem Rechenzentrum stehen. Dort werden Daten ausgewertet, verdichtet und visualisiert. Alarme können Verschleiß und Aufsfälle signalisieren. In Zukunft wird dank "Maschone Learning" auch die vorbeugende Instandhaltung möglich werden. Sie können damit drohende Ausfälle erkennen und rechtzeitig eingreifen.</p>',
+			marked_description: '<p>Lorem ipsum dolor sit amet consectetur adipiscing elit facilisis platea parturient, duis primis rutrum sapien erat lobortis leo curabitur tempus imperdiet, hac in vulputate nec elementum cubilia morbi ligula bibendum. Luctus habitant diam condimentum placerat mattis odio faucibus massa parturient litora gravida magna feugiat arcu, laoreet pretium taciti iaculis facilisis porta venenatis mauris habitasse at platea magnis. Imperdiet ullamcorper litora condimentum parturient orci cum natoque aliquet, dis placerat malesuada maecenas eu mattis fringilla vehicula ante, lobortis porttitor integer habitasse cursus scelerisque libero. Euismod proin vel ut quam ultrices viverra velit phasellus enim platea nisi, magnis in nulla dui aliquam nec vehicula arcu metus. Tempor quis morbi massa a feugiat placerat euismod congue dui quisque fermentum, vitae quam aliquet fringilla metus hendrerit in class mi scelerisque. Malesuada augue porttitor aenean proin blandit inceptos lectus, pulvinar sem ridiculus senectus ante aliquam, commodo faucibus eros natoque nisi in. Ut posuere class metus nisi mus,</p>',
 			$marked_description_hidden: true
 		},
 		{
@@ -163,12 +163,12 @@
 			invert: true,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526588780_vwerker.JPG',
-			headline: 'Anbindung',
+			image: '',
+			headline: 'mattis odio faucibus',
 			$description_type: 'textarea',
-			description: 'Die valyriot Box hat Anschlüssen für verschiedene Sensoren und wird an Ihren Anlagen angebracht. Sie macht eine erste Vorverarbeitung - sogenanntes edge comsupting - und überträgt die Daten dann zum valyriot Server.',
+			description: 'Platea mi sollicitudin vestibulum malesuada aptent, etiam ullamcorper eget habitasse quis, blandit nibh convallis vivamus. Nunc posuere ultricies aliquam pretium tristique porta mollis curabitur semper nullam primis mattis aptent nascetur, eget est massa condimentum proin suscipit iaculis ornare risus convallis morbi eu bibendum, facilisis litora eleifend luctus accumsan nisl lobortis sociosqu fusce nostra fringilla lectus mauris. Tempor varius litora natoque pellentesque venenatis fringilla diam elementum vulputate vivamus ut, vehicula mus et mattis laoreet placerat interdum sodales pretium velit, sem suspendisse nisi volutpat a sapien nibh maecenas facilisi aliquet. Sodales magnis augue potenti sociosqu neque rhoncus et nisi scelerisque suscipit cum cursus ac facilisis, vestibulum metus orci senectus primis risus fermentum dui convallis ornare fames enim. Congue habitant malesuada odio habitasse pretium dictum aliquam tempor, risus primis nisi luctus turpis curabitur dictumst, eget fames dis arcu ante aliquet nec.',
 			$marked_doc_hidden: true,
-			marked_description: '<p>Die valyriot Box hat Anschlüssen für verschiedene Sensoren und wird an Ihren Anlagen angebracht. Sie macht eine erste Vorverarbeitung - sogenanntes edge comsupting - und überträgt die Daten dann zum valyriot Server.</p>',
+			marked_description: '<p>Platea mi sollicitudin vestibulum malesuada aptent, etiam ullamcorper eget habitasse quis, blandit nibh convallis vivamus. Nunc posuere ultricies aliquam pretium tristique porta mollis curabitur semper nullam primis mattis aptent nascetur, eget est massa condimentum proin suscipit iaculis ornare risus convallis morbi eu bibendum, facilisis litora eleifend luctus accumsan nisl lobortis sociosqu fusce nostra fringilla lectus mauris. Tempor varius litora natoque pellentesque venenatis fringilla diam elementum vulputate vivamus ut, vehicula mus et mattis laoreet placerat interdum sodales pretium velit, sem suspendisse nisi volutpat a sapien nibh maecenas facilisi aliquet. Sodales magnis augue potenti sociosqu neque rhoncus et nisi scelerisque suscipit cum cursus ac facilisis, vestibulum metus orci senectus primis risus fermentum dui convallis ornare fames enim. Congue habitant malesuada odio habitasse pretium dictum aliquam tempor, risus primis nisi luctus turpis curabitur dictumst, eget fames dis arcu ante aliquet nec.</p>',
 			$marked_description_hidden: true
 		},
 		{
@@ -179,12 +179,12 @@
 			invert: false,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526590575_vmanuf.JPG',
-			headline: 'Sicherheit',
+			image: '',
+			headline: 'fermentum egestas ut sollicitudin',
 			$description_type: 'textarea',
-			description: 'Ihre Daten sind Ihr Kapital. Daher werden die Daten anonymisiert übertragen, verschlüsselt gespeichert und auf sicheren Servern ausgewertet. Sie entscheiden, ob diese Server in Ihrem Unternehmen stehen oder von valyriot in deutschen oder europäischen Rechenzentren ausgewertet werden.',
+			description: 'Per pharetra porttitor diam sed elementum risus inceptos suscipit donec, faucibus odio senectus sociis curabitur iaculis molestie tincidunt vulputate, eleifend nisi himenaeos nam fermentum egestas ut sollicitudin. Fames fusce praesent hendrerit urna quam sociosqu non aenean tristique eu taciti aliquet, cum est dictumst lobortis aliquam nibh semper natoque duis pellentesque. Lectus parturient leo non nibh congue odio suspendisse ullamcorper ornare,',
 			$marked_doc_hidden: true,
-			marked_description: '<p>Ihre Daten sind Ihr Kapital. Daher werden die Daten anonymisiert übertragen, verschlüsselt gespeichert und auf sicheren Servern ausgewertet. Sie entscheiden, ob diese Server in Ihrem Unternehmen stehen oder von valyriot in deutschen oder europäischen Rechenzentren ausgewertet werden.</p>',
+			marked_description: '<p>Per pharetra porttitor diam sed elementum risus inceptos suscipit donec, faucibus odio senectus sociis curabitur iaculis molestie tincidunt vulputate, eleifend nisi himenaeos nam fermentum egestas ut sollicitudin. Fames fusce praesent hendrerit urna quam sociosqu non aenean tristique eu taciti aliquet, cum est dictumst lobortis aliquam nibh semper natoque duis pellentesque. Lectus parturient leo non nibh congue odio suspendisse ullamcorper ornare,</p>',
 			$marked_description_hidden: true
 		},
 		{
@@ -195,12 +195,12 @@
 			invert: true,
 			dark: false,
 			$image_type: 'image',
-			image: '/remote/direct_uploads/1526588797_vwerker2.JPG',
-			headline: 'Künstliche Intelligenz',
+			image: '',
+			headline: 'sociosqu mauris et etiam',
 			$description_type: 'textarea',
-			description: 'Die Sammlung von Daten ist nur der erste Schritte. Zukünftig wird valyriot gesammelt Daten mit Hilfe von Maschne Learning und künstlicher Intelligenz auswerten um  besser Aussagen zu Ausfallrisiken und Verbesserungspotenzialen machen zu können.',
+			description: 'pulvinar conubia eget facilisis cubilia viverra nam erat curae, massa diam libero et laoreet ultricies turpis urna. Gravida erat justo quis bibendum conubia dictum, porta urna nisl mauris nullam curabitur, diam dapibus lacinia porttitor primis. Blandit sociosqu mauris et etiam nibh ridiculus lobortis platea eleifend potenti tortor vivamus auctor cum, ante risus cras vestibulum torquent sem justo quisque fames cubilia commodo odio. Risus ullamcorper vestibulum euismod luctus aliquet pellentesque aliquam, morbi nunc tortor nulla dignissim et massa non, primis porta laoreet ad curae ligula. Nec cubilia porttitor luctus gravida non maecenas enim, fusce laoreet vulputate mus class euismod.',
 			$marked_doc_hidden: true,
-			marked_description: '<p>Die Sammlung von Daten ist nur der erste Schritte. Zukünftig wird valyriot gesammelt Daten mit Hilfe von Maschne Learning und künstlicher Intelligenz auswerten um  besser Aussagen zu Ausfallrisiken und Verbesserungspotenzialen machen zu können.</p>',
+			marked_description: '<p>pulvinar conubia eget facilisis cubilia viverra nam erat curae, massa diam libero et laoreet ultricies turpis urna. Gravida erat justo quis bibendum conubia dictum, porta urna nisl mauris nullam curabitur, diam dapibus lacinia porttitor primis. Blandit sociosqu mauris et etiam nibh ridiculus lobortis platea eleifend potenti tortor vivamus auctor cum, ante risus cras vestibulum torquent sem justo quisque fames cubilia commodo odio. Risus ullamcorper vestibulum euismod luctus aliquet pellentesque aliquam, morbi nunc tortor nulla dignissim et massa non, primis porta laoreet ad curae ligula. Nec cubilia porttitor luctus gravida non maecenas enim, fusce laoreet vulputate mus class euismod.</p>',
 			$marked_description_hidden: true
 		},
 		{

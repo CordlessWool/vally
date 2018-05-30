@@ -1,12 +1,12 @@
 {
-	"name": "enduro_new_project",
+	"name": "Vally",
 	"version": "1.0.0",
-	"description": "",
+	"description": "Vally is a template for business websites based on enduro",
 	"main": "assets/vendor/enduro/index.js",
 	"scripts": {
 		"start": "node_modules/.bin/enduro start"
 	},
-	"author": "author goes here",
+	"author": "Wolfgang Rathgeb",
 	"license": "MIT",
 	"dependencies": {
 		"@fortawesome/fontawesome": "^1.1.8",
