@@ -1,5 +1,6 @@
-# Homepage
-based on [endurojs](https://www.endurojs.com/).
+# Vally
+
+This is a template with some standard components for business websites, based on [enduro.js](https://www.endurojs.com/).
 
 ## start developing
 To starting developing session first run `npm install -g endurojs` to install endurojs globally. Afterwards you can start a developing environment with `enduro dev`
